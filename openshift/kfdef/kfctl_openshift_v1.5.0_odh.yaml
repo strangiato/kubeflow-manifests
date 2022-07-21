@@ -8,7 +8,7 @@ spec:
   - kustomizeConfig:
       repoRef:
         name: manifests
-        path: openshift/openshiftstack/application/openshift/openshift-scc
+        path: openshift/openshiftstack/application/openshift/openshift-scc/overlays/istio
     name: openshift-scc
   - kustomizeConfig:
       repoRef:
